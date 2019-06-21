@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+table, td, th{
+	border: 2px solid red;
+	text-align: center;
+	width: 30%;
+	height: 30%;
+}
+
+div#a{
+	width: 200px;
+	height:200px;
+	background-color:yellow;
+	border:2px solid red
+}
+
+div#lti {
+  -webkit-transform: translate(50px, 100px);
+}

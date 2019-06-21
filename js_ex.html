@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  padding:2em;
+  margin: auto;
+  width: 60%;
+  text-align:center;
+}
+</style>
+
+</head>
+<body id="main">
+<h1 style="text-align:center; color:red;">JavaScript Functions</h1>
+<table>
+
+	<tr>
+		<th>Buttons</th>
+		<th>Function</th>
+	</tr>
+	<tr>
+		<td><button type="button" onclick="add()">Try it</button></td>
+		<td>Addition Function</td>
+	</tr>
+	
+	<tr>
+		<td><button type="button" onclick="myFunction()">Try it</button></td>
+		<td>Creates an Alert</td>
+	</tr>
+	
+	<tr>
+		<td><button type="button" onclick="array()">Try it</button></td>
+		<td>Array Function</td>
+	</tr>
+	
+	<tr>
+		<td><button type="button" onclick="objecta()">Try it</button></td>
+		<td>Objects in JS</td>
+	</tr>
+	
+	<tr>
+		<td><button type="button" onclick="DefFunc()">Try it</button></td>
+		<td>Objects in JS</td>
+	</tr>
+	
+	<tr>
+		<td><button type="button" onclick="ChangeFunc()">Try it</button></td>
+		<td>Change color of paragraph</td>
+	</tr>
+	
+	<tr>
+		<td><button type="button" onclick="CreateDiv()">Try it</button></td>
+		<td>Create div dynamics</td>
+	</tr>
+	
+	<tr>
+		<td><button id="myBtn" type="button">Try it</button></td>
+		<td>Event Listener</td>
+	</tr>
+	
+</table>
+<h2 align="center" >Answers</h2> 
+<p id="name" align="center"></p>
+
+<div  id="change">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</br><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</br><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+<div>
+<form name="form1"  onsubmit ="check()" >
+Name:<br>
+ <input type="text" name="Name"><br>
+ Phone:<br>
+  <input type="text" name="Phone"><br>
+  <input type="checkbox" name="call" id="call">Don't call me<br>
+  <input type="submit" value="Submit"><br>
+</form>
+</div>
+<div align="center">
+<canvas id="canvas" width="400" height="400"
+style="background-color:#a57c9a" >
+</div>
+<script src="script.js" type="text/javascript"> </script>
+</body>
+</html>

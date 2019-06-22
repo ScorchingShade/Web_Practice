@@ -33,3 +33,13 @@ s(10);
 
     console.log("Hi");
 })();   //(); -> through this it will call itself.
+
+function fact(n:number){
+    if(n==0) return 1;
+
+    else{
+        return n*fact(n-1);
+    }
+}
+
+console.log(fact(4));

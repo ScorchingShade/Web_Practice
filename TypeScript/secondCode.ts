@@ -24,3 +24,12 @@ holaBhola(32,323,232,23,23,1);
 
 console.log(exp(1,23));
 exp1(2);
+
+var s = (c:number)=> console.log(c); //lambda function
+s(10);
+
+
+(function(){ //a function with no name
+
+    console.log("Hi");
+})();   //(); -> through this it will call itself.

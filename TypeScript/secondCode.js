@@ -21,3 +21,8 @@ function holaBhola() {
 holaBhola(32, 323, 232, 23, 23, 1);
 console.log(exp(1, 23));
 exp1(2);
+var s = function (c) { return console.log(c); }; //lambda function
+s(10);
+(function () {
+    console.log("Hi");
+})(); //(); -> through this it will call itself.

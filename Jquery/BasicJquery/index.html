@@ -8,13 +8,92 @@
 
 <script type="text/javascript" language="javascript">  
  $(document).ready(function() {  
- $("p").css("background-color", "red");  
+ $("tr:even").css("background-color", "red");  
  });  
+
+ $(document).ready(function() {  
+ $("#hide").click(function(){
+     $("p").hide();
+ });  
+ });   
+
+ $(document).ready(function() {  
+ $("#show").click(function(){
+     $("p").show();
+ });  
+ }); 
+
+  $(document).ready(function() {  
+ $("#t1").focus(function(){
+     $("#t1").css("background-color", "yellow");  
+ });  
+ });   
+
+ $(document).ready(function() {  
+ $("#t1").blur(function(){
+     $("#t1").css("background-color", "red");  
+ });  
+ }); 
+
+/*
+ $(document).ready(function() {  
+ $("#btn").click(function(){
+     $("#shin").fadeOut();  
+     $("#nin").fadeOut("slow");  
+     $("#dora").fadeOut(20000);
+ });  
+ }); */
+ $(document).ready(function(){
+    $("#shin").css("display","none") ;
+    $("#nin").css("display","none") ;
+    $("#dora").css("display","none") ; 
+   
+ })
+ $(document).ready(function() {  
+ $("#btn").click(function(){
+    
+    
+     $("#shin").fadeIn();  
+     $("#nin").fadeIn("slow");  
+     $("#dora").fadeIn(20000);
+ });  
+ });
  </script>  
  </head>  
 <body>  
-<p>This is first paragraph.</p>  
-<p>This is second paragraph.</p>  
-<p>This is third paragraph.</p>  
+<table border="2" width="30%">
+    <tr>
+        <th>Hoo Haah</th>
+        <th>ooh aah</th>
+    </tr>
+    <tr>
+            <td>nenene</td>
+            <td>nenene</td>
+        </tr>
+        <tr>
+                <td>nenene</td>
+                <td>nenene</td>
+            </tr>
+            <tr>
+                    <td>nenene</td>
+                    <td>nenene</td>
+                </tr>
+
+
+</table>
+
+<p>India won over Pakistan.</p>
+<button id="hide"> Hide </button>
+<button id="show"> Show </button>
+<input type="text" id="t1"><br>
+
+
+<h1 id="shin" >Shinchan</h1><br>
+<h1 id="dora">Doraemon</h1><br>
+<h1 id="nin">Ninja Hattori</h1><br>
+<button id=btn>fade bro</button>
+
+
+
 </body>  
 </html>  
